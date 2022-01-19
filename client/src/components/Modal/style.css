@@ -1,0 +1,25 @@
+.modal-wrapper {
+    position: absolute;
+    width: 115%;
+    height: 100vh;
+    top: -10px;
+    bottom: 0;
+    left: -10px;
+    right: -3px;
+    background-color: rgba(0, 0, 0, 0.364);
+}
+
+.modal-wrapper .modal-content {
+    margin: 0 auto;
+    margin-top: 10%;
+    min-width: 420px;
+    width: 450px;
+    min-height: 280px;
+    height: 280px;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: white;
+    border: 0.5px solid gainsboro;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,39 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #ededed;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.admin-container {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.admin-container h1 {
+    text-align: center;
+}
+.add-product {
+    margin: 20px;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}

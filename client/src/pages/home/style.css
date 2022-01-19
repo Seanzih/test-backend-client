@@ -1,0 +1,47 @@
+.home-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.products-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.user-cart-container .main-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.user-cart-container .add-prod-message {
+    color: green;
+    font-weight: bold;
+}
+.user-cart-container .modal-wrapper .modal-content {
+    min-width: 250px;
+    width: 150px;
+    min-height: 10%;
+    height: fit-content;
+    padding-bottom: 3%;
+    max-height: fit-content;
+}
+
+.user-cart-container .user-cart .cart-items-list{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.user-cart-container .user-cart .cart-items-list li {
+    list-style: none;
+    height: 30px;
+    display: flex;
+    direction: ltr;
+    justify-content: space-evenly;
+}
